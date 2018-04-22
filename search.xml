@@ -3,7 +3,7 @@
   <entry>
     <title><![CDATA[搭建github博客主页]]></title>
     <url>%2F2018%2F%E6%90%AD%E5%BB%BAgithub%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A1%B5.html</url>
-    <content type="text"><![CDATA[内容之前曾经试着搭建github博客主页，但是搭了个半成品就放弃了。今天阅读某篇博文，读着读着又犯了跑偏的毛病，中途跑来继续尝试搭GP。好像成功了。hahahahaha~ 其他 测试 测试1print("测试") 更新 增加python代码，方便更新博客 123456789101112131415161718192021222324252627#!/usr/bin/env python# -*- coding: utf-8 -*-"""功能：更新github博客时间：2018年04月22日19:32:04"""import osdef run_command(command): blog_path = "/Users/simon/hexo" command = os.path.join(blog_path, command) process = os.popen(command) con = process.read() print(con) process.close()def main(): run_command("hexo g") run_command("hexo d")if __name__ == "__main__": main()]]></content>
+    <content type="text"><![CDATA[内容之前曾经试着搭建github博客主页，但是搭了个半成品就放弃了。今天阅读某篇博文，读着读着又犯了跑偏的毛病，中途跑来继续尝试搭GP。好像成功了。hahahahaha~ 其他 测试 测试1print("测试") 更新 增加python代码，方便更新博客 123456789101112131415161718#!/usr/bin/env python# -*- coding: utf-8 -*-"""功能：更新github博客时间：2018年04月22日19:50:59"""import osdef update_blog(): os.chdir("/Users/simon/hexo") os.system("hexo g") os.system("hexo d")if __name__ == "__main__": update_blog()]]></content>
       <categories>
         <category>github</category>
       </categories>
