@@ -1283,6 +1283,10 @@ pre .javascript .function {
   font-weight: bold;
   line-height: 1;
 }
+.post-body a {
+  color: #428bca;
+  font-weight: bold;
+}
 .post-sticky-flag {
   display: inline-block;
   font-size: 16px;
@@ -1866,7 +1870,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #daffff;
+  background: #7db60f;
 }
 .links-of-blogroll {
   font-size: 13px;
