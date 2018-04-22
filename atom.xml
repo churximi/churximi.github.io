@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://churximi.github.io/"/>
-  <updated>2018-04-22T08:35:07.000Z</updated>
+  <updated>2018-04-22T10:36:59.000Z</updated>
   <id>https://churximi.github.io/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World2</title>
+    <link href="https://churximi.github.io/googlec443a4ebae13249d.html"/>
+    <id>https://churximi.github.io/googlec443a4ebae13249d.html</id>
+    <published>2018-04-22T10:34:28.000Z</published>
+    <updated>2018-04-22T10:36:59.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>google-site-verification: googlec443a4ebae13249d.html</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;google-site-verification: googlec443a4ebae13249d.html&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="其他" scheme="https://churximi.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+      <category term="其他" scheme="https://churximi.github.io/tags/%E5%85%B6%E4%BB%96/"/>
+    
+  </entry>
   
   <entry>
     <title>搭建github博客主页</title>
