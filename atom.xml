@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>竹聿Simon的博客</title>
+  
+  <subtitle>Live a wonderful life.</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://churximi.github.io/"/>
+  <updated>2018-04-22T08:35:07.000Z</updated>
+  <id>https://churximi.github.io/</id>
+  
+  <author>
+    <name>竹聿Simon</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>搭建github博客主页</title>
+    <link href="https://churximi.github.io/2018/04/22/%E6%90%AD%E5%BB%BAgithub%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A1%B5/"/>
+    <id>https://churximi.github.io/2018/04/22/搭建github博客主页/</id>
+    <published>2018-04-22T08:35:07.000Z</published>
+    <updated>2018-04-22T08:35:07.000Z</updated>
+    
+    <content type="html"><![CDATA[<h3 id="内容"><a href="#内容" class="headerlink" title="内容"></a>内容</h3><p>之前曾经试着搭建github博客主页，但是搭了个半成品就放弃了。<br>今天阅读某篇博文，读着读着又犯了跑偏的毛病，中途跑来继续尝试搭GP。<br>好像成功了。<br>hahahahaha~</p><h3 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h3><ul><li>测试</li><li>测试<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">print(<span class="string">"测试"</span>)</span><br></pre></td></tr></table></figure></li></ul>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h3 id=&quot;内容&quot;&gt;&lt;a href=&quot;#内容&quot; class=&quot;headerlink&quot; title=&quot;内容&quot;&gt;&lt;/a&gt;内容&lt;/h3&gt;&lt;p&gt;之前曾经试着搭建github博客主页，但是搭了个半成品就放弃了。&lt;br&gt;今天阅读某篇博文，读着读着又犯了跑偏的毛病，中途跑来继续尝试搭GP。
+      
+    
+    </summary>
+    
+      <category term="github" scheme="https://churximi.github.io/categories/github/"/>
+    
+    
+      <category term="github" scheme="https://churximi.github.io/tags/github/"/>
+    
+      <category term="博客" scheme="https://churximi.github.io/tags/%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://churximi.github.io/2018/04/21/hello-world/"/>
+    <id>https://churximi.github.io/2018/04/21/hello-world/</id>
+    <published>2018-04-21T12:38:35.000Z</published>
+    <updated>2018-04-22T08:33:36.000Z</updated>
+    
+    <content type="html"><![CDATA[<p>Hello World!</p><p>——by Simon</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;Hello World!&lt;/p&gt;
+&lt;p&gt;——by Simon&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="其他" scheme="https://churximi.github.io/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+      <category term="其他" scheme="https://churximi.github.io/tags/%E5%85%B6%E4%BB%96/"/>
+    
+  </entry>
+  
+</feed>
