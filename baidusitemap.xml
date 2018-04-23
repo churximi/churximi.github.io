@@ -4,23 +4,21 @@
 
     
   <url>
-    <loc>https://churximi.github.io/2018/Deep_Learning_NLP_and_Representations%E7%BF%BB%E8%AF%91%E5%AD%A6%E4%B9%A0.html</loc>
-    <lastmod>2018-04-23T05:22:51.000Z</lastmod>
+    <loc>https://churximi.github.io/2018/%E6%90%AD%E5%BB%BAgithub%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A1%B5.html</loc>
+    <lastmod>2018-04-23T05:34:11.000Z</lastmod>
     <data>
         <display>
-        <title>Deep Learning, NLP, and Representations翻译学习</title>
-        <pubTime>2018-04-23T05:11:50.000Z</pubTime>
+        <title>搭建github博客主页</title>
+        <pubTime>2018-04-22T08:35:07.000Z</pubTime>
         
-        <tag>深度学习</tag>
+        <tag>github</tag>
          
-        <tag>自然语言处理</tag>
-         
-        <tag>词嵌入</tag>
+        <tag>博客</tag>
          
          
            
              
-              <breadCrumb title="机器学习" url="https://churximi.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+              <breadCrumb title="github" url="https://churximi.github.io/categories/github/"/>
           
         </display>
     </data>
@@ -29,7 +27,7 @@
     
   <url>
     <loc>https://churximi.github.io/2018/%E6%88%91%E7%9A%84github%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A1%B5.html</loc>
-    <lastmod>2018-04-22T14:17:21.000Z</lastmod>
+    <lastmod>2018-04-23T05:34:01.000Z</lastmod>
     <data>
         <display>
         <title>我的github博客主页</title>
@@ -50,21 +48,23 @@
 
     
   <url>
-    <loc>https://churximi.github.io/2018/%E6%90%AD%E5%BB%BAgithub%E5%8D%9A%E5%AE%A2%E4%B8%BB%E9%A1%B5.html</loc>
-    <lastmod>2018-04-22T12:56:24.000Z</lastmod>
+    <loc>https://churximi.github.io/2018/Deep_Learning_NLP_and_Representations%E7%BF%BB%E8%AF%91%E5%AD%A6%E4%B9%A0.html</loc>
+    <lastmod>2018-04-23T05:33:52.000Z</lastmod>
     <data>
         <display>
-        <title>搭建github博客主页</title>
-        <pubTime>2018-04-22T08:35:07.000Z</pubTime>
+        <title>Deep Learning, NLP, and Representations翻译学习</title>
+        <pubTime>2018-04-23T05:11:50.000Z</pubTime>
         
-        <tag>github</tag>
+        <tag>深度学习</tag>
          
-        <tag>博客</tag>
+        <tag>自然语言处理</tag>
+         
+        <tag>词嵌入</tag>
          
          
            
              
-              <breadCrumb title="github" url="https://churximi.github.io/categories/github/"/>
+              <breadCrumb title="机器学习" url="https://churximi.github.io/categories/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
           
         </display>
     </data>
