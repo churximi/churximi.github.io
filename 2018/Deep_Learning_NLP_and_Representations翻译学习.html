@@ -96,14 +96,17 @@
 <meta property="og:site_name" content="竹聿Simon的博客">
 <meta property="og:description" content="基本信息 原文作者：Chris Olah 原文地址：Deep Learning, NLP, and Representations 阅读时间：2018年04月21日   主要内容 《深度学习，自然语言处理和表征方法》 keywords：neural networks, deep learning, representations, NLP, recursive neural networks 关键">
 <meta property="og:locale" content="zh-Hans">
+<meta property="og:image" content="https://img-blog.csdn.net/20180423124429329?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NodXJ4aW1p/font/5a6L5L2T/fontsize/200/fill/I0JBQkFCMA==/dissolve/70">
+<meta property="og:image" content="https://img-blog.csdn.net/20180423125811430?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NodXJ4aW1p/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
 <meta property="og:image" content="https://img-blog.csdn.net/20180423125949545?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NodXJ4aW1p/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
 <meta property="og:image" content="https://img-blog.csdn.net/20180423130035465?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NodXJ4aW1p/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
 <meta property="og:image" content="https://img-blog.csdn.net/20180423130328140?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NodXJ4aW1p/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
-<meta property="og:updated_time" content="2018-04-23T05:15:31.000Z">
+<meta property="og:image" content="https://img-blog.csdn.net/20180423130433612?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NodXJ4aW1p/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
+<meta property="og:updated_time" content="2018-04-23T05:22:51.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Deep Learning, NLP, and Representations翻译学习">
 <meta name="twitter:description" content="基本信息 原文作者：Chris Olah 原文地址：Deep Learning, NLP, and Representations 阅读时间：2018年04月21日   主要内容 《深度学习，自然语言处理和表征方法》 keywords：neural networks, deep learning, representations, NLP, recursive neural networks 关键">
-<meta name="twitter:image" content="https://img-blog.csdn.net/20180423125949545?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NodXJ4aW1p/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70">
+<meta name="twitter:image" content="https://img-blog.csdn.net/20180423124429329?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NodXJ4aW1p/font/5a6L5L2T/fontsize/200/fill/I0JBQkFCMA==/dissolve/70">
 
 
 
@@ -438,11 +441,11 @@
 <li>感知器网络的输入和输出都是二进制的（0和1）</li>
 <li>注意：可能的输入个数是有限的</li>
 <li>对于每个可能的<strong>输入</strong>，可以在隐层中构建一个仅对<strong>该特定输入</strong>才能触发的<em>神经元</em></li>
-<li><p>然后就可以利用<em>该神经元</em>和输出神经元之间的连接来控制<strong>该输入</strong>下的输出结果</p>
-<center><br>&lt;img src=”<a href="https://img-blog.csdn.net/20180423124429329?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NodXJ4aW1p/font/5a6L5L2T/fontsize/200/fill/I0JBQkFCMA==/dissolve/70&quot;" target="_blank" rel="noopener">https://img-blog.csdn.net/20180423124429329?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NodXJ4aW1p/font/5a6L5L2T/fontsize/200/fill/I0JBQkFCMA==/dissolve/70&quot;</a> width=”70%” alt=””/ &gt;<br></center>
-</li>
-<li><p>备注1：如果有n个输入神经元，则为所有可能的输入构建case需要2^n个隐层神经元。不过实际中情况通常不会那么糟糕：You can have cases that encompass multiple inputs. And you can have overlapping cases that add together to achieve the right input on their intersection.</p>
-</li>
+<li>然后就可以利用<em>该神经元</em>和输出神经元之间的连接来控制<strong>该输入</strong>下的输出结果</li>
+</ul>
+<p><img src="https://img-blog.csdn.net/20180423124429329?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NodXJ4aW1p/font/5a6L5L2T/fontsize/200/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
+<ul>
+<li>备注1：如果有n个输入神经元，则为所有可能的输入构建case需要2^n个隐层神经元。不过实际中情况通常不会那么糟糕：You can have cases that encompass multiple inputs. And you can have overlapping cases that add together to achieve the right input on their intersection.</li>
 <li>普适性意味着一个网络能适应任何你给它的训练数据，但这并不意味着它在插入新数据点时能表现得很理想。</li>
 <li>所以普适性并不能解释为什么神经网络如此有效。</li>
 <li>备注2：不仅感知器网络有普适性，多层感知器（sigmoid neurons）网络（及其他激活函数）也具有普适性。</li>
@@ -458,10 +461,11 @@
 <li>词嵌入是一个参数化函数（paramaterized function）：将词语映射成向量</li>
 <li>一般这个参数化函数就是一个查询表（lookup table）</li>
 <li>通过任务训练学习得到参数W，例如预测句子中下一个词，或是预测5-gram是否成立</li>
-<li><p>可以用t-SNE来对词嵌入空间可视化（<a href="https://lvdmaaten.github.io/tsne/" target="_blank" rel="noopener">t-SNE</a>是一个高维数据可视化技术）<br>&lt;img src=”<a href="https://img-blog.csdn.net/20180423125811430?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NodXJ4aW1p/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70&quot;" target="_blank" rel="noopener">https://img-blog.csdn.net/20180423125811430?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NodXJ4aW1p/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70&quot;</a> width=”90%” alt=””/ &gt;</p>
-</li>
-<li><p>意义相似的词拥有相似的向量</p>
-</li>
+<li>可以用t-SNE来对词嵌入空间可视化（<a href="https://lvdmaaten.github.io/tsne/" target="_blank" rel="noopener">t-SNE</a>是一个高维数据可视化技术）</li>
+</ul>
+<p><img src="https://img-blog.csdn.net/20180423125811430?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NodXJ4aW1p/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
+<ul>
+<li>意义相似的词拥有相似的向量</li>
 <li>词嵌入另一个属性：单词间的类比仿佛是被编码在了单词向量的区别中：<br><img src="https://img-blog.csdn.net/20180423125949545?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NodXJ4aW1p/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></li>
 </ul>
 <ul>
@@ -487,16 +491,15 @@
 <li><p>我们也可以学习把非常不同的几种数据嵌入到同一个空间去</p>
 </li>
 <li>例如，把单词和图像嵌入到同一个表征下的模型</li>
-<li><p>基本思路就是可以通过单词嵌入输出的向量来对图像进行分类：</p>
-<ul>
+<li>基本思路就是可以通过单词嵌入输出的向量来对图像进行分类：<ul>
 <li>狗的图像会被映射到“狗”的单词向量附近</li>
 <li>马的图像会被映射到“马”的单词向量附近</li>
 <li>汽车的图像会被映射到“汽车”的单词向量附近</li>
 <li>以此类推</li>
 </ul>
-<p>&lt;img src=”<a href="https://img-blog.csdn.net/20180423130433612?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NodXJ4aW1p/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70&quot;" target="_blank" rel="noopener">https://img-blog.csdn.net/20180423130433612?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NodXJ4aW1p/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70&quot;</a> width=”70%” alt=””/ &gt;</p>
 </li>
 </ul>
+<p><img src="https://img-blog.csdn.net/20180423130433612?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2NodXJ4aW1p/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70" alt="这里写图片描述"></p>
 <h5 id="递归神经网络（没有细看）"><a href="#递归神经网络（没有细看）" class="headerlink" title="递归神经网络（没有细看）"></a>递归神经网络（没有细看）</h5><ul>
 <li>递归神经网络（RNN）是两种人工神经网络的总称<ul>
 <li>一种是时间递归神经网络（recurrent neural network）</li>
